@@ -1,0 +1,85 @@
+input, textarea {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    border: none;
+    outline: solid black;
+    
+}
+
+input {
+padding: 10px;
+}
+
+textarea {
+    padding: 40px;
+    margin-top: 20px;
+    width: 400px;
+    height: 100px;
+}
+
+form {
+    margin-left: 400px;
+    margin-top: 100px;
+}
+
+.formtitle {
+    text-align: center;
+    margin-top: 60px;
+    font-family: poppins;
+}
+
+.but3 {
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    outline: solid black;
+    font-family: poppins;
+    margin-left: 140px;
+    
+}
+
+.end {
+    display: flex;
+    gap: 200px;
+    font-family: Roboto;
+    background-color: black;
+    margin-top: 50px;
+}
+
+.end1 {
+    font-size: 20px;
+    color: white;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.end2 {
+    font-size: 20px;
+    color: white;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h5 {
+    font-size: 27px;
+    color: white;
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

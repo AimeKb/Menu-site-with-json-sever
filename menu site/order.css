@@ -1,0 +1,23 @@
+.body {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 600px;
+    font-family: Poppins;
+    font-size: 20px;
+}
+
+.p1 {
+    position: absolute;
+    font-family: Poppins;
+    font-size: 20px;
+    margin-top: 245px;
+    margin-left: 300px;
+
+}
+
+.p2 {
+    position: absolute;
+    font-family: roboto;
+    margin-top: 300px;
+    margin-left: 360px;
+}

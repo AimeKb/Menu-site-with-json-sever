@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.topbar {
+    background-color: rgba(0, 0, 0, 0.808);
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    position: absolute;
+    z-index: 1;
+}
+
+.topbar li {
+    display: flex;
+    gap: 30px;
+    font-family: Roboto;
+    font-size: 18px;
+    text-align: right;
+    margin-right: 100px;
+}
+
+h1 {
+    font-family: Roboto;
+    font-size: 27px;
+    margin-left: 100px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.haven {
+    color: yellow;
+}
+
+.midimg {
+    position: absolute;
+    text-align: center;
+    padding: 60px;
+    background-color: rgba(0, 0, 0, 0.957);
+    width: 400px;
+    color: yellow;
+    bottom: 130px;
+    margin-left: 100px;
+    border-radius: 15px;
+    font-family: Poppins;
+    font-size: 15px;
+}
+
+.but1 {
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    border: none;
+    width: 200px;
+}
+
+.but1:hover {
+    outline: solid yellow;
+}
+
+
+.newb {
+    margin-top: 50px;
+    font-family: Poppins;
+    font-size: 35px;
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+}
+
+.newb a {
+    color: black;
+    text-decoration: none;
+        background-color: grey;
+        padding: 15px;
+        height: 20px;
+        
+        
+}
+
+.blogs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    color: white;
+    text-align: center;
+
+
+
+}
+
+.post {
+    padding: 60px;
+    width: 25%;
+    background: white;
+    border-radius: 10px;
+    margin: 10px .5rem;
+    background-color: rgba(0, 0, 0, 0.89);
+    margin-left: 23px;
+
+    
+}
+
+.post h2 {
+    margin: 0;
+}
+
+.post p {
+    margin-top: 0;
+}
+
+.post a {
+    color: rgb(255, 0, 0);
+}
+
+.body2 {
+    color: #444;
+    margin: 100px auto;
+    padding: 10px;
+}
+
+h4 {
+    font-family: roboto;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: yellow;
+}
+
+.end {
+    display: flex;
+    gap: 200px;
+    font-family: Roboto;
+    background-color: black;
+}
+
+.end1 {
+    font-size: 20px;
+    color: white;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.end2 {
+    font-size: 20px;
+    color: white;
+    margin-top: 100px;
+    display: flex;
+        flex-direction: column;
+        gap: 20px;
+}
+
+h5 {
+    font-size: 27px;
+    color: white;
+    margin-top: 80px;
+    margin-left: 70px;
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+
+.but1 a {
+    text-decoration: none;
+    color: black;
+}
